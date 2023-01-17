@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fl_sign_guide/burc_listesi.dart';
+import './sign_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: BurcListesi(),
+      home: SignList(),
     );
   }
 }
